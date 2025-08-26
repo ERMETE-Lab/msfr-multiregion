@@ -73,7 +73,9 @@ The `run.py` script includes the RITUAL for the Polimi Cluster, contact stefano.
 
 ## How To Cite and Credits
 The original version of the solver was developed within the SAMOFAR and SAMOSAFER H2020 European Projects (https://samofar.eu and https://samosafer.eu/):
-- @article{CERVI2019209,
+
+```bib
+@article{CERVI2019209,
 title = {Development of an SP3 neutron transport solver for the analysis of the Molten Salt Fast Reactor},
 journal = {Nuclear Engineering and Design},
 volume = {346},
@@ -82,7 +84,19 @@ year = {2019},
 issn = {0029-5493},
 doi = {https://doi.org/10.1016/j.nucengdes.2019.03.001},
 url = {https://www.sciencedirect.com/science/article/pii/S0029549319300354},
-author = {E. Cervi and S. Lorenzi and A. Cammi and L. Luzzi},}
+author = {E. Cervi and S. Lorenzi and A. Cammi and L. Luzzi},
+}
+```
+The credits for the inclusion of the external Hastelloy reflector layer are:
+```bib
+@article{doi:10.1080/00295639.2025.2531477,
+author = {Riva,Stefano and Deanesi,Sophie and Introini,Carolina and Lorenzi,Stefano and Cammi,Antonio},
+title = {Real-Time State Estimation of Neutron Flux in Molten Salt Fast Reactors from Out-Core Sparse Measurements},
+journal = {Nuclear Science and Engineering},
+year = {2025},
+doi = {10.1080/00295639.2025.2531477},
+}
+```
 
 If you use the present solve, please cite the above reference and the following:
 - https://www.ans.org/pubs/proceedings/article-55632
