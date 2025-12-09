@@ -6,8 +6,8 @@ OpenFOAM v8 (CFD Direct version)
 
 ## Installation
 To install the solver: 
-1. Add the following to the end of your ./bashrc: source $HOME/OpenFOAM/msfr-multiregion/OpenFOAM-nrg/etc/bashrc (change the path to where OpenFOAM-nrg folder is).
-2. Source the modified ./bashrc
+1. Add the following to the end of your `./bashrc`: `source $HOME/OpenFOAM/msfr-multiregion/OpenFOAM-nrg/etc/bashrc` (change the path to where `OpenFOAM-nrg` folder is).
+2. Source the modified file: `source $HOME/bashrc`
 3. Navigate to `msfr-multiregion-dev/OpenFOAM-nrg/src` and run `./Allwmake` (OpenFOAM environment must be active).
 
 ## Test
