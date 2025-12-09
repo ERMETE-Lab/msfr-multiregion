@@ -5,7 +5,10 @@ OpenFOAM-8 solvers for the Molten Salt Fast Reactor with an additional layer of 
 OpenFOAM v8 (CFD Direct version)
 
 ## Installation
-To install the solver, navigate to `msfr-multiregion-dev/OpenFOAM-nrg/src` and run `./Allwmake` (OpenFOAM environment must be active).
+To install the solver: 
+1. Add the following to the end of your ./bashrc: source $HOME/OpenFOAM/msfr-multiregion/OpenFOAM-nrg/etc/bashrc (change the path to where OpenFOAM-nrg folder is).
+2. Source the modified ./bashrc
+3. Navigate to `msfr-multiregion-dev/OpenFOAM-nrg/src` and run `./Allwmake` (OpenFOAM environment must be active).
 
 ## Test
 Run `msfrSimpleStructureFoam` from your $HOME folder. If you encounter the error 'cannot find file "......./src/system/controlDict', the installation was successful.
